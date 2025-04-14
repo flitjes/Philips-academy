@@ -1,6 +1,6 @@
 
-#!/bin/sh -ex
-chmod +x scripts/*.sh
-./scripts/get-wsl-ip.sh
-./scripts/check-openocd.sh
+#!/bin/bash -ex
+chmod +x *.sh
+./get-wsl-ip.sh
+./check-openocd.sh
 

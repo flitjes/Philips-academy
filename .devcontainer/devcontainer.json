@@ -26,5 +26,5 @@
     }
   },
   "updateContentCommand": "apt-get update && apt-get install -y iproute2 jq curl wget netcat-openbsd",
-  "postCreateCommand": "sh scripts/postCreateCommand.sh"
+  "postCreateCommand": "chomd a+x scripts/postCreateCommand.sh && ./scripts/postCreateCommand.sh"
 }

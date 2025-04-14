@@ -26,7 +26,7 @@ rm -f "$CONTAINER_TRIGGER" "$WINDOWS_TRIGGER"
 # Check if OpenOCD exists
 if [ ! -f "$OPENOCD_PATH/openocd.exe" ]; then
     echo "OpenOCD not found, running installation..."
-    ./scripts/check-openocd.sh
+    ./check-openocd.sh
 fi
 
 # Create OpenOCD batch file if it doesn't exist
